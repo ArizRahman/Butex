@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 2;
+      margin: 20px;
+      ;
+    }
+
+    .section {
+      margin-left: 60px;
+    }
+
+    h2 {
+      display: inline-block;
+    }
+
+    .content {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .text {
+      flex: 1;
+      margin-right: 20px;
+      padding-top: 10px;
+    }
+
+    .image-box {
+      width: 200px;
+      height: 150px;
+      border: 2px solid #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      color: #777;
+      margin-right: 70px;
+    }
+
+    /* Responsive: Stack on small screens */
+    @media (max-width: 600px) {
+      .content {
+        flex-direction: column;
+      }
+
+      .text {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+
+      .image-box {
+        width: 100%;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>1. 🧵 Department of Yarn Engineering (YE)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Spinning technology — converting fibers into yarn.</li>
+            <li>Topics: Blow room, carding, combing, ring spinning, rotor spinning, yarn testing.</li>
+            <li>Industry relevance: Spinning mills.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>2. 🪡 Department of Fabric Engineering (FE)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Fabric formation — weaving and knitting.</li>
+            <li>Topics: Loom mechanisms, warp/weft knitting, fabric design, fabric analysis.</li>
+            <li>Industry relevance: Weaving and knitting mills.</li>
+        </ul>
+     </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+        
+  <div class="section">
+    <h2>3. 🧶 Department of Wet Processing Technology (WPT)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Textile wet processing — dyeing, printing, finishing.</li>
+            <li>Topics: Dyeing techniques, printing methods, finishing processes.</li>
+            <li>Industry relevance: Dyeing and finishing mills.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>4. 👔 Department of Apparel Engineering (AE)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Garment manufacturing and fashion technology.</li>
+            <li>Topics: Garment design, pattern making, cutting, sewing, merchandising, CAD.</li>
+            <li>Industry relevance: Garment factories and fashion houses.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+    <div class="section">
+    <h2>5. 🧪 Department of Textile Engineering Management (TEM)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Management, marketing, and industrial engineering in textiles.</li>
+            <li>Topics: Supply chain, production planning, merchandising, HR, costing.</li>
+            <li>Industry relevance: Industrial management, merchandising, and marketing roles.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+  
+  <div class="section">
+    <h2>6.  🧫 Department of Dyes and Chemicals Engineering (DCE) </h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Advanced dye and chemical formulation, sustainability in processing.</li>
+            <li>Topics: Organic/inorganic dyes, eco-friendly alternatives, textile chemistry.</li>
+            <li>Industry relevance: Chemical companies, dyeing factories, labs.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>7. 👗 Department of Textile Fashion & Design (TFD)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Creative design of clothing and textiles.</li>
+            <li> Fashion illustration, garment styling, pattern making, draping, textile aesthetics, CAD for fashion.</li>
+            <li>Industry Relevance: Fashion houses, garment design studios, trend forecasting, boutique businesses.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>8. 🛠️ Department of Machinery Design & Maintenance (MDM)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Design, operation, and maintenance of textile machinery.</li>
+            <li>Topics: Machine elements, mechanical systems, automation, maintenance management, design software.</li>
+            <li>Industry Relevance: Textile machine manufacturers, mill maintenance departments, machinery R&D</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>9. 🏭 Department of Industrial & Production Engineering (IPE)</h2>
+    <div class="content">
+      <div class="text">
+        <ul>
+            <li>Focus: Efficiency, productivity, and industrial management in textile and apparel production.</li>
+            <li>Topics: Production planning, lean manufacturing, operations research, work study, quality control.</li>
+            <li>Industry Relevance: Garment/textile factories, production engineering, IE, and operations optimization.</li>
+        </ul>
+      </div>
+      <div class="image-box"><img src = "image/butex.jpg" width="200px" height=150px></div>
+    </div>
+  
+  
+
+
+</body>
+</html>
